@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Complete Product List</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f5f5;
+}
+
+.header{
+    background:#c40000;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.container{
+    width:95%;
+    max-width:1300px;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.top-link{
+    margin-bottom:20px;
+}
+
+.top-link a{
+    color:#c40000;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.top-link a:hover{
+    text-decoration:underline;
+}
+
+.category-title{
+    background:#222;
+    color:white;
+    padding:14px;
+    margin-top:40px;
+    font-size:22px;
+    border-radius:6px 6px 0 0;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-bottom:30px;
+}
+
+th{
+    background:#444;
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f0f0f0;
+}
+
+.loading{
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:8px;
+    font-size:20px;
+}
+
+@media(max-width:768px){
+
+    body{
+        font-size:14px;
+    }
+
+    .category-title{
+        font-size:18px;
+    }
+
+    th, td{
+        padding:8px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    COMPLETE EXIDE PRODUCT LIST
+</div>
+
+<div class="container">
+
+    <div class="top-link">
+        <a href="index.html">
+            ← Back To Product Search
+        </a>
+    </div>
+
+    <div id="productContainer">
+
+        <div class="loading">
+            Loading Products...
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+fetch('products.json')
+
+.then(response => response.json())
+
+.then(products => {
+
+    const container = document.getElementById('productContainer');
+
+    container.innerHTML = '';
+
+    // Group products by category
+
+    const groupedProducts = {};
+
+    products.forEach(product => {
+
+        const category = product["Category"];
+
+        if(!groupedProducts[category]){
+            groupedProducts[category] = [];
+        }
+
+        groupedProducts[category].push(product);
+
+    });
+
+    // Display category-wise
+
+    for(const category in groupedProducts){
+
+        let html = `
+
+            <div class="category-title">
+                ${category}
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Ah/VA</th>
+                    <th>Product Code</th>
+                    <th>Warranty</th>
+                    <th>Recommended Resale Prices (Rs.) Inclusive of GST</th>
+                </tr>
+
+        `;
+
+        groupedProducts[category].forEach(product => {
+
+            html += `
+
+                <tr>
+
+                    <td>${product["Ah/VA"]}</td>
+
+                    <td>${product["Product Code"]}</td>
+
+                    <td>${product["Warranty"]}</td>
+
+                    <td>
+                        ₹ ${Number(product["Recommended Resale Prices (Rs.) Inclusive of GST"]).toLocaleString()}
+                    </td>
+
+                </tr>
+
+            `;
+
+        });
+
+        html += `
+            </table>
+        `;
+
+        container.innerHTML += html;
+
+    }
+
+})
+
+.catch(error => {
+
+    document.getElementById('productContainer').innerHTML = `
+
+        <div class="loading">
+            Error Loading Product List
+        </div>
+
+    `;
+
+    console.error(error);
+
+});
+
+</script>
+
+</body>
+
+</html>

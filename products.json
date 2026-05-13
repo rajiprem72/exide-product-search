@@ -1,0 +1,576 @@
+[
+  {
+    "Ah/VA": "35",
+    "Product Code": "EPIQ35L",
+    "Warranty": "42F+35P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 4471,
+    "Category": "CAR/SUV: EXIDE EPIQ: 77M WARRANTY"
+  },
+  {
+    "Ah/VA": "40",
+    "Product Code": "EPIQ40LBH",
+    "Warranty": "42F+35P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5023,
+    "Category": "CAR/SUV: EXIDE EPIQ: 77M WARRANTY"
+  },
+  {
+    "Ah/VA": "74",
+    "Product Code": "EPIQDIN74L",
+    "Warranty": "42F+35P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 10839,
+    "Category": "CAR/SUV: EXIDE EPIQ: 77M WARRANTY"
+  },
+  {
+    "Ah/VA": "35",
+    "Product Code": "MT40B20L/R",
+    "Warranty": "36F+36P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 4047,
+    "Category": "CAR/SUV: EXIDE MATRIX: 72M WARRANTY"
+  },
+  {
+    "Ah/VA": "45",
+    "Product Code": "MTRED45L",
+    "Warranty": "36F+36P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7376,
+    "Category": "CAR/SUV: EXIDE MATRIX: 72M WARRANTY"
+  },
+  {
+    "Ah/VA": "100",
+    "Product Code": "MTREDDIN100",
+    "Warranty": "36F+36P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 16732,
+    "Category": "CAR/SUV: EXIDE MATRIX: 72M WARRANTY"
+  },
+  {
+    "Ah/VA": "38",
+    "Product Code": "MLM42(ISS)",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 4746,
+    "Category": "CAR/SUV: EXIDE MILEAGE ISS: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "45",
+    "Product Code": "MLN55(ISS)",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6542,
+    "Category": "CAR/SUV: EXIDE MILEAGE ISS: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "70",
+    "Product Code": "MLDIN70(ISS)",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 8584,
+    "Category": "CAR/SUV: EXIDE MILEAGE ISS: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "35",
+    "Product Code": "ML38B20L/R",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3857,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "40",
+    "Product Code": "ML40LBH/RBH",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 4725,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "44",
+    "Product Code": "MLDIN44R/LH",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5703,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "45",
+    "Product Code": "ML45D21LBH",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6226,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "50",
+    "Product Code": "ML55B24L(T1)",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6301,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "50",
+    "Product Code": "MLDIN50",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6263,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "54",
+    "Product Code": "ML55D23L",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6547,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "55",
+    "Product Code": "MLDIN55/R",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7164,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "60",
+    "Product Code": "MLDIN60",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7337,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "66",
+    "Product Code": "MLDIN66/66A",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7368,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "68",
+    "Product Code": "ML75D23LBH",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6895,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "72",
+    "Product Code": "ML85D26R/L",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7926,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "MLDIN80",
+    "Warranty": "30F+30P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 10711,
+    "Category": "CAR/SUV: EXIDE MILEAGE: 60M WARRANTY"
+  },
+  {
+    "Ah/VA": "50",
+    "Product Code": "AGMIDIN50",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7580,
+    "Category": "CAR/SUV: EXIDE AGMi: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "60",
+    "Product Code": "AGMIDIN60",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 9075,
+    "Category": "CAR/SUV: EXIDE AGMi: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "70",
+    "Product Code": "AGMIDIN70",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 15308,
+    "Category": "CAR/SUV: EXIDE AGMi: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "AGMIDIN80",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 15535,
+    "Category": "CAR/SUV: EXIDE AGMi: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "95",
+    "Product Code": "AGMIDIN95",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 21733,
+    "Category": "CAR/SUV: EXIDE AGMi: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "47",
+    "Product Code": "EYDIN47RMFEFB",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6060,
+    "Category": "CAR/SUV: EXIDE EEZY ISS: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "52",
+    "Product Code": "EYDIN52RMFEFB",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6347,
+    "Category": "CAR/SUV: EXIDE EEZY ISS: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "78",
+    "Product Code": "EYDIN78LMFEFB",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 8594,
+    "Category": "CAR/SUV: EXIDE EEZY ISS: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "33",
+    "Product Code": "EY34B19L/R",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3460,
+    "Category": "CAR/SUV: EXIDE EEZY: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "35",
+    "Product Code": "EY38B20L/R",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3645,
+    "Category": "CAR/SUV: EXIDE EEZY: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "65",
+    "Product Code": "EY700L/R",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7098,
+    "Category": "CAR/SUV: EXIDE EEZY: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "65",
+    "Product Code": "EY700F/EY700LF",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7098,
+    "Category": "CAR/SUV: EXIDE EEZY: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "68",
+    "Product Code": "EY80D23R",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7098,
+    "Category": "CAR/SUV: EXIDE EEZY: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "85",
+    "Product Code": "EY105D31L/R",
+    "Warranty": "24F+24P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7705,
+    "Category": "CAR/SUV: EXIDE EEZY: 48M WARRANTY"
+  },
+  {
+    "Ah/VA": "35",
+    "Product Code": "RIDE35L",
+    "Warranty": "12F+12P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3100,
+    "Category": "CAR/SUV: EXIDE RIDE: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "45",
+    "Product Code": "RIDE45L",
+    "Warranty": "12F+12P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5189,
+    "Category": "CAR/SUV: EXIDE RIDE: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "65",
+    "Product Code": "RIDE700L/R",
+    "Warranty": "12F+12P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5311,
+    "Category": "CAR/SUV: EXIDE RIDE: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "65",
+    "Product Code": "RIDE700LF/RF",
+    "Warranty": "12F+12P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5311,
+    "Category": "CAR/SUV: EXIDE RIDE: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "32",
+    "Product Code": "EKO32",
+    "Warranty": "24F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3170,
+    "Category": "3W/LCV: EXIDE EKO: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "35",
+    "Product Code": "EKO40L",
+    "Warranty": "24F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3743,
+    "Category": "3W/LCV: EXIDE EKO: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "50",
+    "Product Code": "EKO50L",
+    "Warranty": "24F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5129,
+    "Category": "3W/LCV: EXIDE EKO: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "55",
+    "Product Code": "EKO55L",
+    "Warranty": "24F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5227,
+    "Category": "3W/LCV: EXIDE EKO: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "60",
+    "Product Code": "EKO60L/R",
+    "Warranty": "24F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5349,
+    "Category": "3W/LCV: EXIDE EKO: 24M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "XP800",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7190,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "XP800F",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7190,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "88",
+    "Product Code": "XP880",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7952,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "100",
+    "Product Code": "XP1000",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 9032,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "100",
+    "Product Code": "XP1000H29R",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 8760,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "120",
+    "Product Code": "XP1200/L(RH)",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 11057,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "130",
+    "Product Code": "XP1300",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 11301,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "150",
+    "Product Code": "XP1500",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 14465,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "180",
+    "Product Code": "XP1800",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 17088,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "200",
+    "Product Code": "XP2000",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 22898,
+    "Category": "CV: EXIDE XPRESS: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "75",
+    "Product Code": "KI75TF",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7041,
+    "Category": "TRACTOR: EXIDE JAI KISAN: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "KI80T",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7181,
+    "Category": "TRACTOR: EXIDE JAI KISAN: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "88",
+    "Product Code": "KI88T/TLH",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7328,
+    "Category": "TRACTOR: EXIDE JAI KISAN: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "90",
+    "Product Code": "KI90H29L",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7328,
+    "Category": "TRACTOR: EXIDE JAI KISAN: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "99",
+    "Product Code": "KI99T",
+    "Warranty": "24F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 8404,
+    "Category": "TRACTOR: EXIDE JAI KISAN: 42M WARRANTY"
+  },
+  {
+    "Ah/VA": "35",
+    "Product Code": "DRIVE35L",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3301,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "40",
+    "Product Code": "DRIVE40LBH",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 3870,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "45",
+    "Product Code": "DRIVE45L/R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5581,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "65",
+    "Product Code": "DRIVE700R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6539,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "65",
+    "Product Code": "DRIVE700RF",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6539,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "DRIVE80L/R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6323,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "80",
+    "Product Code": "DRIVE80LF/RF",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6323,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "88",
+    "Product Code": "DRIVE88L",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 6770,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "100",
+    "Product Code": "DRIVE100L",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7395,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "100",
+    "Product Code": "DRIVE100H29R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7395,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "130",
+    "Product Code": "DRIVE130R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 10046,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "150",
+    "Product Code": "DRIVE150R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 12001,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": "180",
+    "Product Code": "DRIVE180R",
+    "Warranty": "18F+18P",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 15563,
+    "Category": "CAR/SUV/3W/TRACTOR/CV: EXIDE DRIVE: 36M WARRANTY"
+  },
+  {
+    "Ah/VA": 125,
+    "Product Code": "ERTB9S1500WH",
+    "Warranty": "9F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 8681,
+    "Category": "E-RICKSHAW: EXIDE ERIDE TUBULAR PLUS"
+  },
+  {
+    "Ah/VA": 125,
+    "Product Code": "ERTBPLUS125N",
+    "Warranty": "12F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 9414,
+    "Category": "E-RICKSHAW: EXIDE ERIDE TUBULAR PLUS"
+  },
+  {
+    "Ah/VA": 135,
+    "Product Code": "ERTBPLUS135N",
+    "Warranty": "12F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 9626,
+    "Category": "E-RICKSHAW: EXIDE ERIDE TUBULAR PLUS"
+  },
+  {
+    "Ah/VA": 150,
+    "Product Code": "ERTBPLUS150N",
+    "Warranty": "15F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 11256,
+    "Category": "E-RICKSHAW: EXIDE ERIDE TUBULAR PLUS"
+  },
+  {
+    "Ah/VA": 100,
+    "Product Code": "ERFLPLUS100L",
+    "Warranty": "7F",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 7890,
+    "Category": "E-RICKSHAW: EXIDE ERIDE PLUS"
+  },
+  {
+    "Ah/VA": "100 ( 51.2V )",
+    "Product Code": "FLC9-ERNXLIB51V3Y1",
+    "Warranty": "36M FOC",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 46339,
+    "Category": "E-RICKSHAW: NEXCHARGE LiTHIUM ION BATTERY"
+  },
+  {
+    "Ah/VA": "48V 25A",
+    "Product Code": "131115102001 (ERLICH48V25A)",
+    "Warranty": "24M FOC",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5301,
+    "Category": "E-RICKSHAW: LiTHIUM ION BATTERY CHARGER"
+  },
+  {
+    "Ah/VA": "48V 25A",
+    "Product Code": "131115103001 (ERLINCH48V25A)",
+    "Warranty": "24M FOC",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 5462,
+    "Category": "E-RICKSHAW: LiTHIUM ION BATTERY CHARGER"
+  },
+  {
+    "Ah/VA": "5 LTR",
+    "Product Code": "DMWATER-5L",
+    "Warranty": "NA",
+    "Recommended Resale Prices (Rs.) Inclusive of GST": 95,
+    "Category": "DM WATER : DISTILLO"
+  }
+]

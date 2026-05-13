@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Exide Product Search</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f5f5;
+}
+
+.header{
+    background:#c40000;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+    margin-top:30px;
+}
+
+.search-box{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+input{
+    flex:1;
+    padding:14px;
+    font-size:18px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:14px 20px;
+    border:none;
+    border-radius:6px;
+    background:#c40000;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#900000;
+}
+
+.voice-btn{
+    background:#0a7d00;
+}
+
+.voice-btn:hover{
+    background:#065c00;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:15px;
+}
+
+th{
+    background:#333;
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+.section-title{
+    margin-top:40px;
+    font-size:24px;
+    color:#c40000;
+    font-weight:bold;
+}
+
+.link-area{
+    margin-top:20px;
+}
+
+a{
+    color:#c40000;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.no-result{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+@media(max-width:768px){
+
+    .search-box{
+        flex-direction:column;
+    }
+
+    input{
+        width:100%;
+    }
+
+    button{
+        width:100%;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    EXIDE PRODUCT SEARCH
+</div>
+
+<div class="container">
+
+    <div class="search-box">
+
+        <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Enter Product Code Example: EPIQ35L">
+
+        <button onclick="searchProduct()">
+            Search
+        </button>
+
+        <button class="voice-btn" onclick="startVoiceSearch()">
+            🎤 Voice Search
+        </button>
+
+    </div>
+
+    <div class="link-area">
+        <a href="products.html">
+            View Complete Product List
+        </a>
+    </div>
+
+    <div id="result"></div>
+
+    <div id="relatedProducts"></div>
+
+</div>
+
+<script>
+
+let products = [];
+
+fetch('products.json')
+.then(response => response.json())
+.then(data => {
+    products = data;
+});
+
+function searchProduct(){
+
+    let code = document
+        .getElementById('searchInput')
+        .value
+        .toUpperCase()
+        .replace(/\s/g,'');
+
+    let resultDiv = document.getElementById('result');
+    let relatedDiv = document.getElementById('relatedProducts');
+
+    resultDiv.innerHTML = '';
+    relatedDiv.innerHTML = '';
+
+    let found = products.find(
+        p => p["Product Code"]
+        .toUpperCase()
+        .replace(/\s/g,'') === code
+    );
+
+    if(!found){
+
+        resultDiv.innerHTML = `
+            <div class="no-result">
+                Product Not Found
+            </div>
+        `;
+
+        return;
+    }
+
+    resultDiv.innerHTML = `
+
+        <div class="section-title">
+            Product Details
+        </div>
+
+        <table>
+
+            <tr>
+                <th>Ah/VA</th>
+                <th>Product Code</th>
+                <th>Warranty</th>
+                <th>Price</th>
+                <th>Category</th>
+            </tr>
+
+            <tr>
+                <td>${found["Ah/VA"]}</td>
+                <td>${found["Product Code"]}</td>
+                <td>${found["Warranty"]}</td>
+                <td>₹ ${Number(found["Recommended Resale Prices (Rs.) Inclusive of GST"]).toLocaleString()}</td>
+                <td>${found["Category"]}</td>
+            </tr>
+
+        </table>
+    `;
+
+    let relatedProducts = products.filter(
+        p => p["Category"] === found["Category"]
+        && p["Product Code"] !== found["Product Code"]
+    );
+
+    if(relatedProducts.length > 0){
+
+        let rows = '';
+
+        relatedProducts.forEach(item => {
+
+            rows += `
+                <tr>
+                    <td>${item["Ah/VA"]}</td>
+                    <td>${item["Product Code"]}</td>
+                    <td>${item["Warranty"]}</td>
+                    <td>₹ ${Number(item["Recommended Resale Prices (Rs.) Inclusive of GST"]).toLocaleString()}</td>
+                    <td>${item["Category"]}</td>
+                </tr>
+            `;
+
+        });
+
+        relatedDiv.innerHTML = `
+
+            <div class="section-title">
+                Other Products In Same Category
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Ah/VA</th>
+                    <th>Product Code</th>
+                    <th>Warranty</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                </tr>
+
+                ${rows}
+
+            </table>
+        `;
+    }
+
+}
+
+function startVoiceSearch(){
+
+    if (!('webkitSpeechRecognition' in window)) {
+
+        alert('Voice Recognition Not Supported');
+
+        return;
+    }
+
+    const recognition = new webkitSpeechRecognition();
+
+    recognition.lang = 'en-IN';
+
+    recognition.start();
+
+    recognition.onresult = function(event){
+
+        let transcript = event.results[0][0].transcript;
+
+        transcript = transcript
+            .toUpperCase()
+            .replace(/\s/g,'');
+
+        document.getElementById('searchInput').value = transcript;
+
+        searchProduct();
+    };
+
+}
+
+</script>
+
+</body>
+</html>
